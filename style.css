@@ -1,0 +1,45 @@
+/* main {
+  display: grid;
+  grid-template-rows: 2;
+} */
+
+
+
+#showcase img {
+    width: 100vh;
+    display: inline-block;
+    grid-row: 2;
+    height: max-content;
+
+}
+
+.container {
+    grid-row: 2;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#links {
+    position: absolute; 
+    top: 0px; 
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 45vh;
+}
+
+#links a {
+text-decoration:none;
+color: #51279B;
+}
+
+#links > a:hover {
+    color: #8662C7
+}
+
+footer {
+    padding: 20px;
+}
